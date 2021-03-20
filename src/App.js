@@ -1,6 +1,6 @@
 
 import './App.css';
- import './slider'
+
 
 
 function App() {

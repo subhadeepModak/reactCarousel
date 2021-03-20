@@ -7,26 +7,22 @@ import ReactDOM from 'react-dom'
 const slideData = [
     {
       index: 0,
-      headline: 'burgers-home-made',
-      button: 'Shop now',
+      headline: 'burgers-home-made',     
       src: 'https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made.jpg'
     },
     {
       index: 1,
-      headline: 'mae-mu-pancakes',
-      button: 'Book travel',
+      headline: 'mae-mu-pancakes',     
       src: 'https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-pancakes-413x516.jpg'
     },
     {
       index: 2,
-      headline: 'pavlova-strawberry',
-      button: 'Listen',
+      headline: 'pavlova-strawberry',  
       src: 'https://www.foodiesfeed.com/wp-content/uploads/2020/08/detail-of-pavlova-strawberry-piece-of-cake-413x551.jpg'
     },
     {
       index: 3,
-      headline: 'hot-shakshuka',
-      button: 'Get Focused',
+      headline: 'hot-shakshuka',     
       src: 'https://www.foodiesfeed.com/wp-content/uploads/2021/01/hot-shakshuka-413x516.jpg'
     }
   ]
@@ -194,11 +190,7 @@ class Slide extends React.Component {
           </ul>
           
           <div className="slider__controls">
-            {/* <SliderControl 
-              type="previous"
-              title="Go to previous slide"
-              handleClick={this.handlePreviousClick}
-            /> */}
+            
             
             <SliderControl 
               type="next"
@@ -212,4 +204,4 @@ class Slide extends React.Component {
   }
   
   
-  ReactDOM.render(<Slider heading="Example Slider" slides={slideData} />, document.getElementById('app'));
+  ReactDOM.render(<Slider heading="React Slider" slides={slideData} />, document.getElementById('app'));

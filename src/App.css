@@ -57,7 +57,7 @@ h1, h2, h3 {
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
-  /* padding: 1rem 2.5rem 1.125rem; */
+  
   
 }
 .btn:focus {
@@ -112,6 +112,7 @@ h1, h2, h3 {
   margin: 0 calc(var(--slide-margin) * -1);
   position: absolute;
   transition: transform var(--base-duration) cubic-bezier(0.25, 1, 0.35, 1);
+  
 }
 .slide {
   align-items: center;
@@ -128,6 +129,7 @@ h1, h2, h3 {
   transition: opacity calc(var(--base-duration) / 2) var(--base-ease), transform calc(var(--base-duration) / 2) var(--base-ease);
   width: var(--slide-sizew);
   z-index: 1;
+  border-radius: 12%;
 }
 .slide--previous:hover, .slide--next:hover {
   opacity: 0.7;
